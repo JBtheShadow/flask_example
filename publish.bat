@@ -1,0 +1,1 @@
+pyinstaller -F --add-data "templates;templates" --add-data ".venv\Lib\site-packages\flask_openapi3\templates\static:flask_openapi3\templates/static" --paths ".venv\Lib\site-packages" main.py
